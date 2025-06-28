@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:gray;
+};
+
+#jam{
+    font-size: 4rem;
+    color: white;
+}
+
+#conts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color:black;
+    text-shadow:black;
+    margin-bottom: 25px;  
+        } 
+
+#sistem button {
+    font-size: 1.5 rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: 5px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.5s;
+        }
+
+#tblstart{
+    background-color: greenyellow;
+        }
+#tblstart:hover{
+     background-color: greenyellow;
+        }
+
+#tblstop{
+    background-color:red;
+        }
+#tblstop:hover{
+    background-color: red;
+        }
+
+#tblreset{
+    background-color: blue;
+        }
+#tblreset:hover{
+    background-color: blue;
+        }
+
+        
+ 
+
+
+
